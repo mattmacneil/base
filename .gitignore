@@ -2,6 +2,8 @@
 .sass-chache/*
 *.css.map
 
+node_modules/
+
 # Compiled source #
 ###################
 *.com
