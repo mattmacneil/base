@@ -1,0 +1,20 @@
+{
+  "name": "MMBase",
+  "version": "0.0.1",
+  "description": "Base PHP Framework",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattmacneil/base.git"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-postcss": "latest",
+    "grunt-php": "latest",
+    "pixrem": "latest",
+    "autoprefixer": "latest",
+    "cssnano": "latest",
+    "grunt-contrib-sass": "latest"
+  }
+}
