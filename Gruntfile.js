@@ -27,7 +27,7 @@ module.exports = function (grunt) {
         },
 
         processors: [
-          require('pixrem')(), // add fallbacks for rem units
+          require('pixrem')(),
           require('autoprefixer')({browsers: 'last 10 versions'}),
           require('cssnano')()
         ]
@@ -44,24 +44,10 @@ module.exports = function (grunt) {
       }
     },
 
-  php: {
-    watch: {
-      options: {
-        port: 5000,
-        keepalive: true,
-        open: true
-      }
-    }
-  }
-
-
-
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-postcss');
-  grunt.loadNpmTasks('grunt-php');
   grunt.loadNpmTasks('grunt-contrib-watch');
-
-  grunt.registerTask('default', ['php:watch', 'watch']);
+  grunt.registerTask('default', ['watch']);
 };
