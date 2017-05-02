@@ -30,6 +30,10 @@ body{
   -moz-osx-font-smoothing: grayscale;
   background-image: $body_background_image;
 
+  @media (max-width: 640px) {
+    font-size: 1.05em;
+  }
+
   @media (min-width: 1000px) {
     font-size: 1.25em;
   }
