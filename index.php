@@ -3,7 +3,7 @@
     include "nav.php";
 ?>
 
-index
+index file.
 
 
 <?php 
