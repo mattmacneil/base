@@ -7,15 +7,13 @@
     "type": "git",
     "url": "https://github.com/mattmacneil/base.git"
   },
-
   "devDependencies": {
     "grunt": "latest",
     "grunt-contrib-sass": "latest",
     "grunt-postcss": "latest",
-      "pixrem": "latest",
-      "autoprefixer": "latest",
-      "cssnano": "latest",
+    "pixrem": "latest",
+    "autoprefixer": "latest",
+    "cssnano": "latest",
     "grunt-contrib-watch": "latest"
   }
-  
 }
